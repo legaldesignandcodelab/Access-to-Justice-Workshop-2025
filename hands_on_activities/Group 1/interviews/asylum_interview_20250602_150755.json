@@ -1,0 +1,180 @@
+{
+  "interview_metadata": {
+    "timestamp": "2025-06-02T15:07:55.058837",
+    "total_questions": 8,
+    "answered_questions": 8,
+    "detected_languages": [],
+    "agent_version": "1.0",
+    "configuration": {
+      "max_retries": 3,
+      "record_duration": 15,
+      "default_language": "auto"
+    }
+  },
+  "interview_data": {
+    "personal_info_1": {
+      "question": "Please state your full name as it appears on your documents.",
+      "category": "personal_information",
+      "raw_response": "Yes, sure. So the full name would actually be Luca Iure-Lars and then Bekawac, B-E-K-A-V-E-C.",
+      "processed_info": {
+        "extracted_info": "Full name: Luca Iure-Lars Bekawac",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The respondent provided their full name as it appears on their documents. No concerns or follow-up questions are necessary at this time."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T14:59:49.703290",
+      "attempt": 2
+    },
+    "origin_1": {
+      "question": "What is your country of origin?",
+      "category": "origin",
+      "raw_response": "The country of origin would be Germany.",
+      "processed_info": {
+        "extracted_info": "Germany",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The applicant's country of origin is Germany."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:00:13.420942",
+      "attempt": 1
+    },
+    "language_1": {
+      "question": "What is your native language? Do you speak any other languages?",
+      "category": "language",
+      "raw_response": "No, only German.",
+      "processed_info": {
+        "extracted_info": "The user's native language is German and they do not speak any other languages.",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The applicant's native language is German and they do not speak any other languages. No concerns or follow-up questions are needed at this time."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:01:17.774985",
+      "attempt": 2
+    },
+    "persecution_1": {
+      "question": "Can you describe the main reason you are seeking asylum? What happened that made you leave your country?",
+      "category": "persecution",
+      "raw_response": "It's actually because of religious reasons.",
+      "processed_info": {
+        "extracted_info": "The user is seeking asylum due to religious reasons.",
+        "adequately_answered": false,
+        "concerns": [
+          "The user did not provide specific details about the persecution they faced due to their religion."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Can you please provide more details about the religious persecution you faced? Were you threatened, harmed, or discriminated against because of your religion?",
+        "confidence_level": 3,
+        "summary": "The user claims to be seeking asylum due to religious reasons, but has not provided specific details about the persecution they faced. Further information is needed to assess the credibility and seriousness of their claim."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:03:32.481012",
+      "attempt": 3
+    },
+    "timeline_1": {
+      "question": "When did you leave your home country? What was your journey like?",
+      "category": "timeline",
+      "raw_response": "We left it on the 15th of May, we took a bus and the journey was quite cumbersome.",
+      "processed_info": {
+        "extracted_info": {
+          "departure_date": "15th of May",
+          "transportation_mode": "bus",
+          "journey_description": "cumbersome"
+        },
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Could you provide more details about the difficulties you faced during your journey?",
+        "confidence_level": 7,
+        "summary": "The applicant left their home country on the 15th of May. They traveled by bus and described the journey as cumbersome."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:05:18.740614",
+      "attempt": 3,
+      "follow_up": {
+        "question": "Did you travel directly to Switzerland?",
+        "response": "Yes, we travelled directly to Switzerland.",
+        "language": "unknown",
+        "timestamp": "2025-06-02T15:05:35.414256"
+      }
+    },
+    "family_1": {
+      "question": "Do you have any family members with you or still in your home country?",
+      "category": "family",
+      "raw_response": "No.",
+      "processed_info": {
+        "extracted_info": "The respondent has no family members either with them or in their home country.",
+        "adequately_answered": true,
+        "concerns": [
+          "The respondent might be isolated without any family support."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Do you have any friends, relatives or acquaintances in the country you are seeking asylum?",
+        "confidence_level": 8,
+        "summary": "The respondent claims to have no family members either with them or in their home country. This could potentially indicate a lack of support network. Further inquiry into other potential support systems is suggested."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:06:03.999610",
+      "attempt": 1,
+      "follow_up": {
+        "question": "Are any family members in danger?",
+        "response": "No, this is not the case.",
+        "language": "unknown",
+        "timestamp": "2025-06-02T15:06:20.067533"
+      }
+    },
+    "previous_applications": {
+      "question": "Have you applied for asylum in any other country before coming to Switzerland?",
+      "category": "legal_history",
+      "raw_response": "No, I have not.",
+      "processed_info": {
+        "extracted_info": "The applicant has not applied for asylum in any other country before coming to Switzerland.",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The applicant claims to have not sought asylum in any other country prior to Switzerland."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:06:46.083242",
+      "attempt": 1
+    },
+    "documentation": {
+      "question": "Do you have any documents to support your application, such as identity documents, medical records, or evidence of persecution?",
+      "category": "evidence",
+      "raw_response": "No, unfortunately, I do not have any of them.",
+      "processed_info": {
+        "extracted_info": "The applicant does not have any documents to support their application, including identity documents, medical records, or evidence of persecution.",
+        "adequately_answered": true,
+        "concerns": [
+          "The lack of any supporting documents may make it more difficult to verify the applicant's identity and claims of persecution."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Can you explain why you do not have any of these documents? Were they lost, destroyed, or were you unable to obtain them in the first place?",
+        "confidence_level": 7,
+        "summary": "The applicant has no supporting documents for their asylum application. This lack of evidence may complicate the verification process. Further inquiry into the reasons for this absence of documentation is suggested."
+      },
+      "language": "unknown",
+      "timestamp": "2025-06-02T15:07:21.830940",
+      "attempt": 1,
+      "follow_up": {
+        "question": "If you don't have documents, can you explain why?",
+        "response": "I never got any",
+        "language": "unknown",
+        "timestamp": "2025-06-02T15:07:37.277413"
+      }
+    }
+  }
+}

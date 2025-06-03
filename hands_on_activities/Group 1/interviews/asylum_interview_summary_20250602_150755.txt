@@ -1,0 +1,59 @@
+ASYLUM INTERVIEW SUMMARY REPORT
+==================================================
+
+Interview Date: 2025-06-02 15:07:55
+Total Questions: 8
+Questions Answered: 8
+Languages Detected: None detected
+
+QUESTION: Please state your full name as it appears on your documents.
+CATEGORY: personal_information
+RESPONSE: Yes, sure. So the full name would actually be Luca Iure-Lars and then Bekawac, B-E-K-A-V-E-C.
+SUMMARY: The respondent provided their full name as it appears on their documents. No concerns or follow-up questions are necessary at this time.
+------------------------------
+
+QUESTION: What is your country of origin?
+CATEGORY: origin
+RESPONSE: The country of origin would be Germany.
+SUMMARY: The applicant's country of origin is Germany.
+------------------------------
+
+QUESTION: What is your native language? Do you speak any other languages?
+CATEGORY: language
+RESPONSE: No, only German.
+SUMMARY: The applicant's native language is German and they do not speak any other languages. No concerns or follow-up questions are needed at this time.
+------------------------------
+
+QUESTION: Can you describe the main reason you are seeking asylum? What happened that made you leave your country?
+CATEGORY: persecution
+RESPONSE: It's actually because of religious reasons.
+SUMMARY: The user claims to be seeking asylum due to religious reasons, but has not provided specific details about the persecution they faced. Further information is needed to assess the credibility and seriousness of their claim.
+------------------------------
+
+QUESTION: When did you leave your home country? What was your journey like?
+CATEGORY: timeline
+RESPONSE: We left it on the 15th of May, we took a bus and the journey was quite cumbersome.
+SUMMARY: The applicant left their home country on the 15th of May. They traveled by bus and described the journey as cumbersome.
+FOLLOW-UP: Yes, we travelled directly to Switzerland.
+------------------------------
+
+QUESTION: Do you have any family members with you or still in your home country?
+CATEGORY: family
+RESPONSE: No.
+SUMMARY: The respondent claims to have no family members either with them or in their home country. This could potentially indicate a lack of support network. Further inquiry into other potential support systems is suggested.
+FOLLOW-UP: No, this is not the case.
+------------------------------
+
+QUESTION: Have you applied for asylum in any other country before coming to Switzerland?
+CATEGORY: legal_history
+RESPONSE: No, I have not.
+SUMMARY: The applicant claims to have not sought asylum in any other country prior to Switzerland.
+------------------------------
+
+QUESTION: Do you have any documents to support your application, such as identity documents, medical records, or evidence of persecution?
+CATEGORY: evidence
+RESPONSE: No, unfortunately, I do not have any of them.
+SUMMARY: The applicant has no supporting documents for their asylum application. This lack of evidence may complicate the verification process. Further inquiry into the reasons for this absence of documentation is suggested.
+FOLLOW-UP: I never got any
+------------------------------
+

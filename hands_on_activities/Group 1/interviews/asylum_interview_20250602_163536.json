@@ -1,0 +1,197 @@
+{
+  "interview_metadata": {
+    "timestamp": "2025-06-02T16:35:36.335443",
+    "total_questions": 8,
+    "answered_questions": 8,
+    "detected_languages": [
+      "english"
+    ],
+    "agent_version": "1.0",
+    "configuration": {
+      "max_retries": 3,
+      "record_duration": 15,
+      "default_language": "auto"
+    }
+  },
+  "interview_data": {
+    "personal_info_1": {
+      "question": "Please state your full name as it appears on your documents.",
+      "category": "personal_information",
+      "raw_response": "Benjamin Ching",
+      "processed_info": {
+        "extracted_info": "Benjamin Ching",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The respondent provided their full name as requested. No concerns were identified in this response."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:26:03.607423",
+      "attempt": 2
+    },
+    "origin_1": {
+      "question": "What is your country of origin?",
+      "category": "origin",
+      "raw_response": "Hong Kong",
+      "processed_info": {
+        "extracted_info": "Hong Kong",
+        "adequately_answered": true,
+        "concerns": [],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 10,
+        "summary": "The asylum seeker originates from Hong Kong."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:26:26.030214",
+      "attempt": 1
+    },
+    "language_1": {
+      "question": "What is your native language? Do you speak any other languages?",
+      "category": "language",
+      "raw_response": "Cantonese is my native language. No, I do not speak any other language.",
+      "processed_info": {
+        "extracted_info": "The user's native language is Cantonese and they do not speak any other languages.",
+        "adequately_answered": true,
+        "concerns": [
+          "The user's inability to speak other languages may pose communication challenges during the asylum process."
+        ],
+        "follow_up_needed": false,
+        "suggested_follow_up": "",
+        "confidence_level": 9,
+        "summary": "The user is a native Cantonese speaker and does not speak any other languages. This could potentially pose communication challenges during the asylum process."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:27:22.352176",
+      "attempt": 2
+    },
+    "persecution_1": {
+      "question": "Can you describe the main reason you are seeking asylum? What happened that made you leave your country?",
+      "category": "persecution",
+      "raw_response": "An investigation into my finances and my family's finances was launched by the Communist Party of China. And following that, they froze our assets to provide...",
+      "processed_info": {
+        "extracted_info": "The asylum seeker is facing an investigation into their finances and their family's finances by the Communist Party of China. Their assets have been frozen.",
+        "adequately_answered": false,
+        "concerns": [
+          "The response does not clearly explain if the investigation and freezing of assets are due to political persecution or a legitimate legal issue. The user also did not complete their sentence, leaving information unclear."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Can you provide more details about the investigation? Was it related to your political beliefs or activities? Also, what consequences have you faced as a result of your assets being frozen?",
+        "confidence_level": 5,
+        "summary": "The asylum seeker is facing financial investigation by the Communist Party of China and their assets have been frozen. More information is needed to determine if this is due to political persecution."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:29:15.244653",
+      "attempt": 3
+    },
+    "timeline_1": {
+      "question": "When did you leave your home country? What was your journey like?",
+      "category": "timeline",
+      "raw_response": "As I've said before April 20th 2025 I escaped on a shipping tanker and was able to find lodging on the ship.",
+      "processed_info": {
+        "extracted_info": {
+          "departure_date": "April 20th 2025",
+          "mode_of_transport": "shipping tanker",
+          "accommodation": "lodging on the ship"
+        },
+        "adequately_answered": false,
+        "concerns": [
+          "The respondent did not provide a detailed account of their journey."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Could you please provide more details about your journey? For example, how long did it take? Were there any significant events or difficulties you faced during the journey?",
+        "confidence_level": 6,
+        "summary": "The respondent left their home country on April 20th, 2025 via a shipping tanker and was able to find lodging on the ship. However, more details about the journey are needed for a comprehensive understanding."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:31:03.409814",
+      "attempt": 3
+    },
+    "family_1": {
+      "question": "Do you have any family members with you or still in your home country?",
+      "category": "family",
+      "raw_response": "Parents were taken away, siblings are still in Hong Kong at their homes. They are safe for now. I am alone. I am no longer in the home country.",
+      "processed_info": {
+        "extracted_info": {
+          "family_status": "Parents were taken away, siblings are still in Hong Kong and safe for now",
+          "current_location": "The user is alone and no longer in the home country"
+        },
+        "adequately_answered": true,
+        "concerns": [
+          "The user's parents were taken away, which could indicate a potential threat or danger"
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Can you provide more details about the circumstances under which your parents were taken away? Are you in contact with your siblings in Hong Kong?",
+        "confidence_level": 8,
+        "summary": "The user's parents were taken away, and their siblings are still in Hong Kong. The user is alone and no longer in their home country. Further details are needed about the parents' situation."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:32:58.577303",
+      "attempt": 3,
+      "follow_up": {
+        "question": "Are any family members in danger?",
+        "response": "Well, I would say they're all in danger. Parents are arrested. Siblings are not yet.",
+        "language": "english",
+        "timestamp": "2025-06-02T16:33:12.196457"
+      }
+    },
+    "previous_applications": {
+      "question": "Have you applied for asylum in any other country before coming to Switzerland?",
+      "category": "legal_history",
+      "raw_response": "I have applied for Germany and the UK and the US",
+      "processed_info": {
+        "extracted_info": "The applicant has previously applied for asylum in Germany, the UK, and the US.",
+        "adequately_answered": true,
+        "concerns": [
+          "The applicant has applied for asylum in multiple countries, which may indicate 'asylum shopping'. This could potentially affect the credibility of the applicant's claim."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "What were the outcomes of your asylum applications in Germany, the UK, and the US? Why did you decide to apply for asylum in Switzerland after applying in these countries?",
+        "confidence_level": 7,
+        "summary": "The applicant has applied for asylum in Germany, the UK, and the US before coming to Switzerland. Further investigation is needed to understand the outcomes of these applications and the reasons for applying in Switzerland."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:33:42.978074",
+      "attempt": 1,
+      "follow_up": {
+        "question": "What was the outcome of that application?",
+        "response": "Rejected. From all.",
+        "language": "english",
+        "timestamp": "2025-06-02T16:33:58.129747"
+      }
+    },
+    "documentation": {
+      "question": "Do you have any documents to support your application, such as identity documents, medical records, or evidence of persecution?",
+      "category": "evidence",
+      "raw_response": "I have a passport, immunization record, and an award for my arrest from the CCC.",
+      "processed_info": {
+        "extracted_info": {
+          "documents_presented": [
+            "passport",
+            "immunization record",
+            "award for arrest from the CCC"
+          ]
+        },
+        "adequately_answered": true,
+        "concerns": [
+          "The nature of the 'award for arrest' is unclear and may need further clarification. It is also unclear what 'CCC' stands for, and whether it is a credible source of persecution."
+        ],
+        "follow_up_needed": true,
+        "suggested_follow_up": "Could you please clarify what you mean by 'award for my arrest from the CCC'? Could you also provide more information about the CCC?",
+        "confidence_level": 6,
+        "summary": "The applicant has provided a passport and immunization record as identity and medical documents. They also mentioned an 'award for arrest from the CCC' as evidence of persecution, but the nature of this document and the credibility of the CCC are unclear."
+      },
+      "language": "english",
+      "timestamp": "2025-06-02T16:35:08.273924",
+      "attempt": 2,
+      "follow_up": {
+        "question": "If you don't have documents, can you explain why?",
+        "response": "I do have documents.",
+        "language": "english",
+        "timestamp": "2025-06-02T16:35:22.916086"
+      }
+    }
+  }
+}
